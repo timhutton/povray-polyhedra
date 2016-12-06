@@ -4,7 +4,7 @@
   
 ----
 
-This page on Wikipedia contains a useful POV-Ray script to render different polyhedra: [poly.pov](https://en.wikipedia.org/wiki/User:AndrewKepert/poly.pov). It was last modified in 2004.
+A page on Wikipedia ([poly.pov](https://en.wikipedia.org/wiki/User:AndrewKepert/poly.pov)) contains a useful POV-Ray script to render different polyhedra. It was last modified in 2004.
 
 It makes these sorts of images, that appear in many pages on Wikipedia:
 
