@@ -175,7 +175,7 @@
     //triangular_hebesphenorotunda()  #declare rotation=seed(855); // J92
     
     //triakistruncatedtetrahedron() #declare rotation=seed(190);
-    herschel_enneadron() #declare rotation=seed(0);
+    herschel_enneahedron() #declare rotation=seed(0);
 #end
 
 
@@ -415,7 +415,7 @@
   addplane(15,7,8)
 #end
 
-#macro herschel_enneadron()
+#macro herschel_enneahedron()
   // http://aperiodical.com/2013/10/an-enneahedron-for-herschel/
   #local th=sqrt(3)/2;
   #local h1=1/2;
