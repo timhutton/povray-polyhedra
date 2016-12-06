@@ -1,7 +1,10 @@
-# povray-polyhedra
-Script to render different polyhedra for Wikipedia
+**Usage:**
+  1. Install [POV-Ray](http://www.povray.org/) 
+  2. `pvengine64 poly.pov`
+  
+----
 
-This page on Wikipedia contains a useful POV-Ray script to render different polyhedra: [poly.pov](https://en.wikipedia.org/wiki/User:AndrewKepert/poly.pov)
+This page on Wikipedia contains a useful POV-Ray script to render different polyhedra: [poly.pov](https://en.wikipedia.org/wiki/User:AndrewKepert/poly.pov). It was last modified in 2004.
 
 It makes these sorts of images, that appear in many pages on Wikipedia:
 
@@ -9,14 +12,14 @@ It makes these sorts of images, that appear in many pages on Wikipedia:
 
 This is an archive of that code, plus some modifications.
 
-Known contributors:
+**Known contributors:**
  * [Cyp](https://en.wikipedia.org/wiki/User:Cyp)
  * [AndrewKepert](https://en.wikipedia.org/wiki/User:AndrewKepert)
  * [Ferkel](https://en.wikipedia.org/wiki/User:Ferkel)
 
-Questions: 
+**Question:**
  * Is any of the Wikipedia-polyhedra-rendering code like this being maintained anywhere?
 
-Known Wikipedia rendering projects:
+**Known Wikipedia rendering projects:**
  * https://github.com/roice3/Honeycombs
  
