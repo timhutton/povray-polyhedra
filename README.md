@@ -1,6 +1,6 @@
 **Usage:**
   1. Install [POV-Ray](http://www.povray.org/) 
-  2. `pvengine64 poly.pov +W512 +H512`
+  2. `pvengine64 poly.pov +W512 +H512 +a0.3 +am2`
   
 ----
 
