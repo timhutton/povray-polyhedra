@@ -418,16 +418,18 @@
 #macro herschel_enneadron()
   // http://aperiodical.com/2013/10/an-enneahedron-for-herschel/
   #local th=sqrt(3)/2;
-  addpoint(<0.5,0,-0.5>)
+  #local h1=1/2;
+  #local h2=h1*4/3;
+  addpoint(<0.5,0,-h1>)
   addpoint(<0,0,0>)
-  addpoint(<0.5,0,0.5>)
+  addpoint(<0.5,0,h1>)
   addpoint(<1,0,0>)
-  addpoint(<0.5,th/3,-2/3>)
-  addpoint(<0.25,th/2,-0.5>)
-  addpoint(<0.25,th/2,0.5>)
-  addpoint(<0.5,th/3,2/3>)
-  addpoint(<0.75,th/2,0.5>)
-  addpoint(<0.75,th/2,-0.5>)
+  addpoint(<0.5,th/3,-h2>)
+  addpoint(<0.25,th/2,-h1>)
+  addpoint(<0.25,th/2,h1>)
+  addpoint(<0.5,th/3,h2>)
+  addpoint(<0.75,th/2,h1>)
+  addpoint(<0.75,th/2,-h1>)
   addpoint(<0.5,th,0>)
   autobalance()
   addplane(0,1,2)
