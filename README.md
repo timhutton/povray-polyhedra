@@ -17,10 +17,8 @@ This is an archive of that code, plus some modifications.
  * [AndrewKepert](https://en.wikipedia.org/wiki/User:AndrewKepert)
  * [Ferkel](https://en.wikipedia.org/wiki/User:Ferkel)
 
-**Question:**
- * Is any of the Wikipedia-polyhedra-rendering code like this being maintained anywhere?
-
 **Known Wikipedia rendering projects:**
+ * https://github.com/Cyp/wiki-images/tree/master/povray (Cyp's code without AndrewKepert's changes)
  * https://github.com/roice3/Honeycombs
  
 **Recent uses:**
