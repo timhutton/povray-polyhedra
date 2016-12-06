@@ -173,6 +173,8 @@
     //disphenocingulum()  #declare rotation=seed(11);  //  J90
     //bilunabirotunda()  #declare rotation=seed(10); // J91
     //triangular_hebesphenorotunda()  #declare rotation=seed(855); // J92
+    
+    //triakistruncatedtetrahedron() #declare rotation=seed(190);
 #end
 
 
@@ -368,6 +370,47 @@
 
 #macro pentagonalhexecontahedron(s)
   snubdodecahedron(s) dual()
+#end
+
+#macro addplane(a,b,c)
+  #local n=vnormalize(vcross(points[b]-points[a],points[c]-points[a]));
+  #local d=vdot(n,points[a]);
+  addface(n,d)
+#end
+#macro triakistruncatedtetrahedron()           
+  addpoint(<2.6666667461, 0.33333334327, 1.1785112619>)           
+  addpoint(<3, 0.66666668653, 0.70710676908>)
+  addpoint(<3.6666667461, 0, 1.6499158144>) 
+  addpoint(<3, 0, 1.6499158144>)
+  addpoint(<3.6666667461, 0.66666668653, 0.70710676908>) 
+  addpoint(<4, 0.33333334327, 1.1785112619>)
+  addpoint(<2.6666667461, 1, 1.1785112619>) 
+  addpoint(<3, 1.3333333731, 1.6499158144>)
+  addpoint(<3.3333332539, 1, 2.1213202477>) 
+  addpoint(<3.3333332539, 0.33333334327, 2.1213202477>)
+  addpoint(<4, 1, 1.1785112619>) 
+  addpoint(<3.6666667461, 1.3333333731, 1.6499158144>)
+  addpoint(<2.6666667461, 0.66666668653, 0.94280904531>) 
+  addpoint(<3.3333332539, 0, 1.8856180906>) 
+  addpoint(<4, 0.66666668653, 0.94280904531>) 
+  addpoint(<3.3333332539, 1.3333333731, 1.8856180906>)
+  autobalance() 
+  addplane(1,4,5)
+  addplane(4,1,6)
+  addplane(9,8,7)
+  addplane(8,9,2)
+  addplane(12,0,6)
+  addplane(12,6,1)
+  addplane(12,1,0)
+  addplane(14,10,5)
+  addplane(14,5,4)
+  addplane(14,4,10)
+  addplane(13,2,9)
+  addplane(13,9,3)
+  addplane(13,3,2)
+  addplane(15,8,11)
+  addplane(15,11,7)
+  addplane(15,7,8)
 #end
 
 //>>>>>>>>>>>>>>>>> changed AGK  [20041101]
